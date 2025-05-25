@@ -23,4 +23,6 @@ The agent will use his OCR tools to determine what data is needed to complete yo
   <li> A better UI and a web version where you can upload the user_data directory </li>
   <li> Make the workflow/logic of the agent less dependant on the prompts </li>
 </ul>
+
+
 NOTE : Since I ran the code on my personal data, I adapted it to ensure that I dont publish my infos on a public github repo therefore right now you cant run the code as I did in the example. But you can adapt the code and data with your infos and will be able to fully run the project. To do so you will find places in the code with "YOUR KEY", "YOUR PASSWORD", ... Just put your info and you will be good to go!
