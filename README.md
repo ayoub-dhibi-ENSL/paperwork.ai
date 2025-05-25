@@ -1,7 +1,7 @@
 # paperwork.ai
 This project was built during the Paris AI Hackaton organized by {Tech:Europe} held @ La Cristallerie the 24th and 25th of May 2025.
 ## (I hate filling boring administrative documents)
-The project aims to alleviate the pain associated with doing tedious paperwork. For example searching informations in dozens of files and pictures in order to complete a document (intership agreement, taxes declaration, ...).
+The project aims to alleviate the pain associated with doing tedious paperwork. For example searching informations in dozens of files in order to complete a document (intership agreement, taxes declaration, ...).
 
 ## The problem tackled
 When completing a document for paperwork the search-copy-paste process gets very time consuming mainly due to the research procedure i.e. finding the right information in the right document by opening multiple PDFs and images (documents scans for example). We aim to reduce drastically the time needed for the search phase
@@ -10,7 +10,7 @@ When completing a document for paperwork the search-copy-paste process gets very
 
 The project currently offers a rather static and very simple but efficient approach to the problem. The working environement has to be setup like this 
 <ul>
-  <li>In the working directory you shold have the two scripts "gradioUI.py" and "agent.py"</li>
+  <li>In the working directory you should have the two scripts "gradioUI.py" and "agent.py"</li>
   <li>Moreover you should have a target.pdf file which is the document you are trying to complete (subscription for, taxes declaration, ...)</li>
   <li>Finally you want to create an "user_data" directory in the working directory. The user_data directory should contain as much as possible informative documents about you, for example your ID, IBAN, previously filled paperwork, ...</li>
 </ul>
@@ -23,4 +23,4 @@ The agent will use his OCR tools to determine what data is needed to complete yo
   <li> A better UI and a web version where you can upload the user_data directory </li>
   <li> Make the workflow/logic of the agent less dependant on the prompts </li>
 </ul>
-NOTE : Since I ran the code on my personal data, I adapted it to ensure that I dont publish my infos on a public github repo therefore you cant run the code as I did in the example but you can adapt the code and data with your infos (just have to do it once and its quite easy) and will be able to fully run the project.
+NOTE : Since I ran the code on my personal data, I adapted it to ensure that I dont publish my infos on a public github repo therefore right now you cant run the code as I did in the example. But you can adapt the code and data with your infos and will be able to fully run the project. To do so you will find places in the code with "YOUR KEY", "YOUR PASSWORD", ... Just put your info and you will be good to go!
