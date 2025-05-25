@@ -24,8 +24,3 @@ The agent will use his OCR tools to determine what data is needed to complete yo
   <li> Make the workflow/logic of the agent less dependant on the prompts </li>
 </ul>
 NOTE : Since I ran the code on my personal data, I adapted it to ensure that I dont publish my infos on a public github repo therefore you cant run the code as I did in the example but you can adapt the code and data with your infos (just have to do it once and its quite easy) and will be able to fully run the project.
-
-
-
-
-
